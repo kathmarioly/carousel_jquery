@@ -1,18 +1,18 @@
 $(document).ready(function(){
-    // Activate Carousel
+    // Activar carrusel
     $("#myCarousel").carousel("pause");
 
-    // Go to the previous item
+    // Devolver al item anterior
     $("#myBtn").click(function(){
     	$("#myCarousel").carousel("prev");
     });
 
-    // Go to the next item
+    // Pasar al siguiente item
     $("#myBtn2").click(function(){
     	$("#myCarousel").carousel("next");
     });
     
-    // Enable Carousel Indicators
+    // Indicadores del carrusel
     $(".item1").click(function(){
     	$("#myCarousel").carousel(0);
     });
@@ -26,7 +26,7 @@ $(document).ready(function(){
     	$("#myCarousel").carousel(3);
     });
     
-    // control de Flechas avanzar hacia la derecha o retroceder a la izquierda
+    // Control de Flechas avanzar hacia la derecha o retroceder a la izquierda
     $(".left").click(function(){
     	$("#myCarousel").carousel("prev");
     });

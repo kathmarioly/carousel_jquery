@@ -69,3 +69,7 @@ img {
 .carousel, .carousel-inner > .item > img {
 	height: 500px;
 }
+.title{
+	text-align: center;
+	padding: 20px;
+}
