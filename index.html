@@ -10,70 +10,59 @@
 
 </head>
 <body>
-	<div class="slider-picture">
-		<ul class="slider">
-			<li>
-				<img src="assets/img/dolomites-2451044_1920.jpg">
-				<section class="caption">
-					<h1>Lorem impsum 1</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</section>
-			</li>
-			<li>
-				<img src="assets/img/portugal-2423598_1920.jpg">
-				<section class="caption">
-					<h1>Lorem impsum 2</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</section>
-			</li>
-			<li>
-				<img src="assets/img/yellowstone-national-park-1581879_1920.jpg">
-				<section class="caption">
-					<h1>Lorem impsum 3</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</section>
-			</li>
-			<li>
-				<img src="assets/img/hintersee-2395963_1920.jpg">
-				<section class="caption">
-					<h1>Lorem impsum 4</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</section>
-			</li>
-			<li>
-				<img src="assets/img/canada-2451015_1920.jpg">
-				<section class="caption">
-					<h1>Lorem impsum 5</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</section>
-			</li>
-		</ul>
-		<ol class="pagination">
-			<li><span class="fa fa-circle"></span></li>
-			<li><span class="fa fa-circle"></span></li>
-			<li><span class="fa fa-circle"></span></li>
-			<li><span class="fa fa-circle"></span></li>
-			<li><span class="fa fa-circle"></span></li>
-
-		</ol>
-		<div class="left">
-			<span class="fa fa-chevron-left"></span>
-		</div>
-		<div class="right">
-			<span class="fa fa-chevron-right"></span>
-		</div>
-
-	</div>
 	
+	<div class="container">
+		<h2>Carousel Methods</h2>
+		<div id="myCarousel" class="carousel slide">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="item1 active"></li>
+				<li class="item2"></li>
+				<li class="item3"></li>
+				<li class="item4"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="assets/img/dolomites-2451044_1920.jpg" alt="Chania">
+					<section class="caption">
+						<h1>Lorem impsum 3</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</section>
+				</div>
+
+				<div class="item">
+					<img src="assets/img/yellowstone-national-park-1581879_1920.jpg" alt="Chania">
+				</div>
+
+				<div class="item">
+					<img src="assets/img/hintersee-2395963_1920.jpg" alt="Flower">
+				</div>
+
+				<div class="item">
+					<img src="assets/img/canada-2451015_1920.jpg" alt="Flower">
+				</div>
+			</div>
+
+			<!-- control de flechas: avanzar hacia delante o retroceder -->
+			<a class="left carousel-control" href="#myCarousel" role="button">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
 
 
-
-
-
-
-	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
 	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
